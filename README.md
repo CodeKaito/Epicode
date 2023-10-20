@@ -1,6 +1,6 @@
 # My Epicode's Journey
 
-Welcome to the Web Developer Masterclass repository by Epicode! 🚀
+🚀 Welcome to the Web Developer Masterclass repository by Epicode! 🚀
 
 ## Overview
 
