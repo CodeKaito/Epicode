@@ -118,8 +118,9 @@ Apply your knowledge with hands-on projects designed to reinforce your skills.
 
 Connect with fellow learners, ask questions, and share your experiences.
 
+- Visit our [website](https://epicode.com/it/) to find which masterclass fits to you
 - Join our [Discord community](https://discord.com/channels/885470062335623198/912034886523686932) for real-time discussions.
-- Follow us on [Twitter](#) for updates and announcements.
+- Follow us on [Instagram](https://www.instagram.com/epicode.italia/) for updates and announcements.
 
 ## Contributing
 
