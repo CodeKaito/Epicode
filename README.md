@@ -28,31 +28,71 @@ Epicode's Web Developer Masterclass is a hands-on and in-depth program designed 
    git clone https://github.com/codekaito/epicode.git
    ```
 
-4. **Explore the Content:**
-   - Navigate through folders to find materials related to each module.
+2. **Explore the Content:**
+   - Navigate through folders to find materials related to each module. 
    - Check the `code-samples` directory for hands-on examples.
 
 ## Course Outline
 
-### Module 1: Introduction to Web Development
+### Module 1 - Fundamentals of Programming
+Learn the fundamentals of computer science and programming by developing your first real web app!
+In this module we will learn JavaScript, HTML, and GIT so we can build from scratch
+our first web app.
 - Understanding the basics
 - Setting up your development environment
+- Programming fundamentals (variables, conditions, objects, loops...)
+- Version Control (GIT)
+- Introduction to Javascript
+- Javascript + DOM
 
-### Module 2: HTML and CSS Fundamentals
+### Module 2: UX/UI e Front-end development
+Learn the fundamentals and principles of UX/UI and delve into the concepts of Front-end development!
+By the end of this module you will be able to create attractive and easy-to-use interfaces.
 - Structuring web pages with HTML5
-- Styling with CSS3 and responsive design principles
+- Styling with CSS3 and responsive design principles and animations
+- User experience on the web
+- Bootstrap
+- Flexbox
 
 ### Module 3: JavaScript Mastery
+JavaScript, anno dopo anno, è diventato un linguaggio di programmazione complesso e completo.
+Durante il secondo modulo abbiamo mosso i primi passi e ora siamo pronti ad imparare come
+costruire applicazioni connesse al cloud e API esterne via AJAX.
 - Core concepts and fundamentals
 - DOM manipulation and events
+- Design Patterns in JS
+- ES5
+- ES6
+- Async Patterns / Parallel executions
+- Ajax / Promises
 
-### Module 4: Frontend Frameworks
-- Introduction to popular frameworks (React, Angular, or Vue)
+### Module 4: Frontend Frameworks (ReactJS)
+The complexity of web applications can grow very quickly. This is why it is done
+reliance on frameworks and libraries that allow us to divide the code into atomic elements
+(components) making applications more professional and maintainable. For this reason in this
+module we will learn to use React, the most established web framework in new projects.
+- Introduction to popular frameworks (React)
 - Building dynamic and interactive user interfaces
+- SPA
+- Components
+- Routing
+- State
+- Props
 
 ### Module 5: Backend Development
+After learning to create professional Front-end applications connected to external services,
+It's time to learn how these services are created. In this module we will see how to create REST
+APIs connected with our reference database (MongoDB). We will also learn how to release
+applications so that they can be used by millions of users around the world.
 - Server-side scripting (Node.js, Django, or Flask)
 - Connecting frontend and backend systems
+- ExpressJS
+- RESP
+- Middlewares
+- MongoDB
+- Authentication and Authorization
+- Cloud
+- Security and release
 
 ### Module 6: Databases
 - Database design and management
@@ -78,7 +118,7 @@ Apply your knowledge with hands-on projects designed to reinforce your skills.
 
 Connect with fellow learners, ask questions, and share your experiences.
 
-- Join our [Discord community](#) for real-time discussions.
+- Join our [Discord community](https://discord.com/channels/885470062335623198/912034886523686932) for real-time discussions.
 - Follow us on [Twitter](#) for updates and announcements.
 
 ## Contributing
