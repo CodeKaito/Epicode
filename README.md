@@ -9,6 +9,7 @@ This repository is your comprehensive guide to mastering web development with Ep
 ## Table of Contents
 
 - [About the Masterclass](#about-the-masterclass)
+- [Pre-Course](https://codekaito.github.io/Epicode-Challenge/)
 - [Getting Started](#getting-started)
 - [Course Outline](#course-outline)
 - [Resources](#resources)
