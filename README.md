@@ -9,7 +9,7 @@ This repository is your comprehensive guide to mastering web development with Ep
 ## Table of Contents..
 
 - [About the Masterclass](#about-the-masterclass)
-- [Pre-Course](https://codekaito.github.io/Epicode-Challenge/)
+- [Pre-Course](#pre-course)
 - [Getting Started](#getting-started)
 - [Course Outline](#course-outline)
 - [Resources](#resources)
@@ -24,7 +24,8 @@ Epicode's Web Developer Masterclass is a hands-on and in-depth program designed 
 
 
 ## Pre-Course
-In questa sezione troverai la repository del pre-corso di Epicode e troverai i progetti e le sfide assegnate durante il pre-corso. 
+In this section you'll find the pre-course Epicode's repository, projects and tasks assigned.
+Click [here](https://codekaito.github.io/Epicode-Challenge/)
 
 ## Getting Started
 
