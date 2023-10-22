@@ -22,6 +22,10 @@ This repository is your comprehensive guide to mastering web development with Ep
 
 Epicode's Web Developer Masterclass is a hands-on and in-depth program designed to take you from a beginner to a proficient web developer. With a focus on practical skills and real-world projects, this masterclass covers a wide range of topics, ensuring you have a solid foundation in web development.
 
+
+## Pre-Course
+In questa sezione troverai la repository del pre-corso di Epicode e troverai i progetti e le sfide assegnate durante il pre-corso. 
+
 ## Getting Started
 
 1. **Clone the Repository:**
