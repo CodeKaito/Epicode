@@ -13,6 +13,7 @@ This repository is your comprehensive guide to mastering web development with Ep
 - [Getting Started](#getting-started)
 - [Course Outline](#course-outline)
 - [Resources](#resources)
+- [Repositories](#repositories)
 - [Projects](#projects)
 - [Community](#community)
 - [Contributing](#contributing)
@@ -109,6 +110,11 @@ applications so that they can be used by millions of users around the world.
 - Recommended readings
 - External links for further exploration
 - Video tutorials and additional learning materials
+
+## Repositories
+- [23.10.23](https://codekaito.github.io/Epicode/23.10.23/)
+  - [theory](https://codekaito.github.io/Epicode/23.10.23/theory/)
+  - [practice](https://codekaito.github.io/Epicode/23.10.23/practice/)
 
 ## Projects
 
