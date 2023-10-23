@@ -6,9 +6,10 @@
 
 This repository is your comprehensive guide to mastering web development with Epicode's masterclass. Here, you'll find all the necessary resources, code samples, and additional information to complement your learning journey.
 
-## Table of Contents
+## Table of Contents..
 
 - [About the Masterclass](#about-the-masterclass)
+- [Pre-Course](#pre-course)
 - [Getting Started](#getting-started)
 - [Course Outline](#course-outline)
 - [Resources](#resources)
@@ -20,6 +21,11 @@ This repository is your comprehensive guide to mastering web development with Ep
 ## About the Masterclass
 
 Epicode's Web Developer Masterclass is a hands-on and in-depth program designed to take you from a beginner to a proficient web developer. With a focus on practical skills and real-world projects, this masterclass covers a wide range of topics, ensuring you have a solid foundation in web development.
+
+
+## Pre-Course
+In this section you'll find the pre-course Epicode's repository, projects and tasks assigned.
+Click [here](https://codekaito.github.io/Epicode-Challenge/)
 
 ## Getting Started
 
