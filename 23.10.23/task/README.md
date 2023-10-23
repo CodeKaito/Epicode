@@ -8,4 +8,4 @@
 Possiamo prendere come esempio le istruzioni di Ikea per montare una cassettiera, ci sono vari bulloni, chiodi e pannelli in legno, ecc..
 Il risultato finale é la cassettiera, gli input che sono i dati, sono tutti gli assets(vari bulloni, chiodi e pannelli in legno, ecc..) e le istruzioni, sono tutti i passi che devono essere eseguiti, affinché la cassettiera venga montata correttamente.
 
-Un algoritmo deve avere 4 caratteristiche fondamentali: finito, deterministico, non ambiguo e generale.
+Un algoritmo deve avere 4 caratteristiche fondamentali: finito, deterministico, non ambiguo e generale..
