@@ -12,3 +12,25 @@ rem = relativo alla misura del tag html principale.
 2rem = dimensione doppia
 
 vh / vw  = rispetto alla misura della finestra
+
+## Colori in CSS
+Nomi dei colori: colori predefiniti che puoi usare scrivendone solo il nome. 
+Esempio: blu, gainsboro, rosa, viola. Per un elenco completo, visitare: https://www.w3schools.com/cssref/css_colors.asp
+
+
+RGB: Imposta il colore usando la formula RGB e inserendo i valori per Rosso Verde e Blu. Esempio: colore: rgb(255,0,128)
+
+
+Esadecimale: scorciatoia per RGB, si specifica rosso, verde e blu attraverso il loro valore esadecimale. Esempio: colore: #FFAAEF
+
+## Selettori multipli
+È possibile creare selettori più complessi specificando più di un nome di tag
+
+esempio:
+````javascript
+div p {
+		color: purple;
+	} // tutti i paragrafi contenuti dentro un div avranno il colore viola
+````
+
+Durante la prossima lezione vedremo più in dettaglio altri selettori (id, classe) e più avanti studieremo tutti i possibili combinatori (discendente, fratello, genitore-figlio...)
