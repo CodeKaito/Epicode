@@ -30,7 +30,5 @@ esempio:
 ````javascript
 div p {
 		color: purple;
-	} // tutti i paragrafi contenuti dentro un div avranno il colore viola
+	} // tutti i paragrafi contenuti dentro un div avranno il color viola
 ````
-
-Durante la prossima lezione vedremo più in dettaglio altri selettori (id, classe) e più avanti studieremo tutti i possibili combinatori (discendente, fratello, genitore-figlio...)
