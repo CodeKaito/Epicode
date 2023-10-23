@@ -116,6 +116,11 @@ applications so that they can be used by millions of users around the world.
   - [W1D1 Theory](https://codekaito.github.io/Epicode/23.10.23/theory/)
   - [W1D1 Practice](https://codekaito.github.io/Epicode/23.10.23/practice/)
   - [W1D1 Assignments](https://codekaito.github.io/Epicode/23.10.23/task/)
+- [Day 23.10.23.v2](https://codekaito.github.io/Epicode/23.10.23.v2/)
+  - [W1D1 Theory](https://codekaito.github.io/Epicode/23.10.23.v2/theory/)
+  - [W1D1 Practice](https://codekaito.github.io/Epicode/23.10.23.v2/practice/)
+  - [W1D1 Assignments](https://codekaito.github.io/Epicode/23.10.23.v2/task/)
+  - [W1D1 Notes](https://codekaito.github.io/Epicode/23.10.23.v2/notes/)
 
 ## Projects
 
