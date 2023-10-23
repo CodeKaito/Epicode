@@ -37,7 +37,7 @@ Click [here](https://codekaito.github.io/Epicode-Challenge/)
 
 2. **Explore the Content:**
    - Navigate through folders to find materials related to each module. 
-   - Check the `code-samples` directory for hands-on examples.
+   - Check the `practice` directories for hands-on examples.
 
 ## Course Outline
 
