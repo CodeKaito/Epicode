@@ -12,6 +12,8 @@ Possiamo prendere come esempio le istruzioni di Ikea per montare una cassettiera
 3. Mentre l'undefined é un valore richiamato ma non definito, un valore null é un valore vuoto.
 Undefined
 ```javascript
+var nome;
+
 for i in nome {
     ...
 }
@@ -20,3 +22,4 @@ Null
 ```javascript
 var nome = '';
 ```
+![image](image.png)
