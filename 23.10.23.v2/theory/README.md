@@ -126,7 +126,7 @@ Dentro questo tag solitamente troviamo 2 figli:
 - …e il meglio deve ancora venire!
 
 ## Box model
-![box_model](image.png)
+![Box_model](image-1.png)
 
 
 ### Alcuni esempi di proprietà CSS
@@ -173,8 +173,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 - esempio:
 
 ```html
-  div { // selettore
-			border: 1px solid red; // regola
+div { // selettore
+	border: 1px solid red; // regola
 } // darà un bordo di 1px colore rosso a tutti i div della pagina
 ```
 
@@ -185,8 +185,10 @@ In questo caso, le regole verranno applicate a tutti i div della pagina
 
 - È possibile creare selettori più complessi specificando più di un nome di tag
 
+- esempio:
+
 ```html
-esempio: div p {
-			color: purple;
-		} // tutti i paragrafi contenuti dentro un div avranno il colore viola
+div p {
+	color: purple;
+} // tutti i paragrafi contenuti dentro un div avranno il colore viola
 ```
