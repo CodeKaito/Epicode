@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.main-container {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-image-container {
+    align-items: center;
+}
+
+.top-image {
+    height: 30px;
+}
+
+.subtitle-top-container {
+    background-color: #ffffdf;
+    width: 100%;
+    height: 40px;
+    border-top: solid 3px #d3d320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.subtitle-top {
+    color: rgb(11, 141, 141);
+    font-weight: 700;
+    font-size: small;
+}
+
+.subtitle-top-span {
+    text-transform: uppercase;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40rem;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.description-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pizza-image {
+    width: 45rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #dadada;
+}
+
+.author {
+    text-align: center;
+    margin: 10px;
+    color: gray;
+}
+
+.featured-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.featured {
+    margin-left: 20px;
+}
+
+.vertical-line {
+    border-left: 2px solid #d3d320;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.featured-title {
+    color: rgb(214, 45, 45);
+    text-transform: uppercase;
+}
+
+.featured-description {
+    color: rgb(23, 173, 173);
+}
+
+.ingredients {
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid rgb(23, 173, 173, 0.3);
+    margin: 20px;
+}
+
+.list-title {
+    margin-top: 10px;
+}
+
+li {
+    margin: 20px;
+    margin-left: 5%;
+}
+
+.method-container {
+    width: 40rem;
+}
+
+.method-title {
+    font-weight: 800;
+}
+
+.list-method-container {
+    margin-left: 20px;
+}
+
+.list-method-container > p {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    margin-bottom: 20px;
+}
+
+.read-more-recipes {
+    color: rgb(23, 173, 173)
+}

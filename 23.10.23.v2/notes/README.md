@@ -1,3 +1,7 @@
+## Box Model
+
+
+
 ## Unità di misura in CSS
 px = dimensione assoluta in pixel. 
 font-size: 10px imposterà la dimensione del carattere su 10px
@@ -17,9 +21,7 @@ vh / vw  = rispetto alla misura della finestra
 Nomi dei colori: colori predefiniti che puoi usare scrivendone solo il nome. 
 Esempio: blu, gainsboro, rosa, viola. Per un elenco completo, visitare: https://www.w3schools.com/cssref/css_colors.asp
 
-
 RGB: Imposta il colore usando la formula RGB e inserendo i valori per Rosso Verde e Blu. Esempio: colore: rgb(255,0,128)
-
 
 Esadecimale: scorciatoia per RGB, si specifica rosso, verde e blu attraverso il loro valore esadecimale. Esempio: colore: #FFAAEF
 
