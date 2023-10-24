@@ -182,3 +182,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 - Il nome del tag qui è usato come "selettore". Il selettore definisce a quali elementi verranno applicate le regole.
 In questo caso, le regole verranno applicate a tutti i div della pagina
+
+- È possibile creare selettori più complessi specificando più di un nome di tag
+
+```html
+esempio: div p {
+			color: purple;
+		} // tutti i paragrafi contenuti dentro un div avranno il colore viola
+```
