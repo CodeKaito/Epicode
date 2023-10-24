@@ -70,3 +70,78 @@ Dentro questo tag solitamente troviamo 2 figli:
 </ul>
 ```
 
+## Gli attributi dei tags
+- Gli attributi sono coppie chiave-valore utilizzate per configurare tag
+
+- Alcuni attributi sono validi per tutti i tag (id, class, style)...
+
+- …altri sono specifici di alcuni tag
+
+- Esempio:
+
+```html
+<img src=”logo.png” />
+```
+
+### img> ⇒ Tag immagine
+- <img> ⇒ viene utilizzato per eseguire il rendering di un'immagine in una pagina
+
+
+- Richiede l'attributo src per impostare l'immagine
+
+
+- Richiede l'attributo alt che verrà mostrato quando l'immagine non è disponibile 
+ - Importante per l’accessibilità e la SEO!
+
+- <img>  è un tag self-closing:
+
+- Esempio: 
+```html
+<img src=”logo.png” alt=”logo” />
+```
+
+## <a> ⇒ Tag “àncora”
+- <a> ⇒ collega a una pagina interna o esterna oppure ad un elemento interno
+
+- Richiede l'attributo href per impostare l'URL dell'elemento a cui fare riferimento
+
+- Tutti i figli di <a> saranno cliccabili e porteranno alla pagina indicata nell’href
+
+- Esempio: 
+```html
+<a href=”google.com”> Go to Google </a>
+```
+
+### Altri tag
+- HTML forms & inputs
+
+- Tabelle HTML (non molto utilizzato per problemi di responsiveness)
+
+- Tag HTML5 (semantici, video, audio…)
+
+- Altri input per textarea, pulsanti di opzione, elenchi a discesa...
+
+- Tag per lo stile (style) e il contenuto dinamico (script)
+
+- …e il meglio deve ancora venire!
+
+## Box model
+![box_model](image.png)
+
+
+### Alcuni esempi di proprietà CSS
+- color: red; // imposta il colore del testo su rosso
+
+- background-color: blue; // imposta il colore di sfondo sul blu
+
+- margin-top: 10px; // imposta il margine in alto su 10 pixel
+
+- font-weight: bold; // imposta il testo in grassetto
+
+- border: 1px solid red; // crea un bordo rosso di 1 pixel attorno all'elemento
+
+- padding: 10px; // creare un padding di 10 pixel per il contenuto dell'elemento
+
+- text-align: center; // allinea il contenuto al centro
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
