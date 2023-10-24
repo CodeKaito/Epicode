@@ -62,9 +62,11 @@ Dentro questo tag solitamente troviamo 2 figli:
 - Entrambi sono genitori di <li> (list item)
 
 - Esempio :
+
 ```html
 <ul>
 	<li> primo elemento </li>
 	<li> secondo elemento </li>
 </ul>
 ```
+
