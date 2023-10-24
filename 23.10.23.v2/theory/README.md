@@ -145,3 +145,40 @@ Dentro questo tag solitamente troviamo 2 figli:
 - text-align: center; // allinea il contenuto al centro
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+## CSS regole ereditarie
+- Alcune regole, se impostate sull'elemento genitore, vengono automaticamente ereditate sugli elementi al suo interno
+
+- esempio: 
+
+```html
+<div style=”color: red;”>
+	<p> Lorem Ipsum </p> // il testo di p sarà in rosso
+</div>
+```
+
+- L’ereditarietà non si applica a tutte le regole, ma solo ad alcune di esse
+
+- esempio:
+
+```html
+<div style=”border: 2px solid green”>
+	<p> Lorem Ipsum </p> // p non avrà un bordo
+</div>
+```
+
+### Selettori per Tag
+- Nel tuo file CSS esterno o nel tag <style> puoi specificare regole per ogni dato elemento con un tag specifico
+
+- esempio:
+
+```html
+  div { // selettore
+			border: 1px solid red; // regola
+} // darà un bordo di 1px colore rosso a tutti i div della pagina
+```
+
+- Queste regole si applicheranno a TUTTI i tag della pagina
+
+- Il nome del tag qui è usato come "selettore". Il selettore definisce a quali elementi verranno applicate le regole.
+In questo caso, le regole verranno applicate a tutti i div della pagina
