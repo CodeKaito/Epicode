@@ -9,15 +9,9 @@ body {
     margin: auto;
 }
 
-main {
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .top-image-container {
-    align-items: center;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .top-image {
@@ -28,17 +22,18 @@ main {
     background-color: #ffffdf;
     width: 100%;
     height: 40px;
-    border-top: solid 3px #d3d320;
-    display: flex;
+    border-top: solid 1px #d3a320;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-top: 10px;
 }
 
 .subtitle-top {
-    color: rgb(11, 141, 141);
+    color: rgb(9, 119, 119);
     font-weight: 700;
     font-size: small;
+    margin-top: 10px;
 }
 
 .subtitle-top-span {
@@ -62,6 +57,7 @@ main {
 
 .title {
     text-align: center;
+    color: rgb(53, 53, 53);
 }
 
 .description-container {
@@ -70,14 +66,14 @@ main {
 }
 
 .pizza-image {
-    width: 45rem;
+    width: 50rem;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #dadada;
 }
 
 .pizza-image2 {
     background-image: url(https://raw.githubusercontent.com/CodeKaito/Epicode/main/23.10.23.v2/task/assets/pizza.webp);
-    width: 600px;
+    width: 650px;
     height: 800px;
     background-size: cover;
     border-radius: 20px;
@@ -91,40 +87,36 @@ main {
 }
 
 .featured-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.featured {
-    margin-left: 20px;
-}
-
-.vertical-line {
-    border-left: 2px solid #d3d320;
-    height: 40px;
-    margin-bottom: 30px;
+    border: solid 2px #ecdf24;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding: 2px;
 }
 
 .featured-title {
     color: rgb(214, 45, 45);
     text-transform: uppercase;
+    margin-left: 20px;
 }
 
 .featured-description {
-    color: rgb(23, 173, 173);
+    color: rgb(45, 141, 141);
+    margin-left: 20px;
 }
 
 .ingredients {
     margin-bottom: 20px;
 }
 
-hr {
-    width: 100%;
-    border-top: 1px solid rgb(23, 173, 173, 0.3);
-    margin: 20px;
+.list-title-container {
+    border: solid 1px rgb(23, 173, 173, 0.3);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
 }
 
 .list-title {
@@ -138,6 +130,7 @@ li {
 
 .method-container {
     width: 40rem;
+    margin-top: 20px;
 }
 
 .method-title {
@@ -145,7 +138,11 @@ li {
 }
 
 .list-method-container {
-    margin-left: 20px;
+    border: solid 1px rgb(23, 173, 173, 0.3);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
 }
 
 .list-method-container > p {
@@ -158,5 +155,5 @@ li {
 }
 
 .read-more-recipes {
-    color: rgb(23, 173, 173)
+    color: rgb(23, 173, 173);
 }
