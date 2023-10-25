@@ -112,6 +112,7 @@ applications so that they can be used by millions of users around the world.
 - Video tutorials and additional learning materials
 
 ## Repositories
+- [Javascript repo](https://codekaito.github.io/Epicode/javascript/)
 - [Day 23.10.23](https://codekaito.github.io/Epicode/23.10.23/)
 - [Day 23.10.23.v2](https://codekaito.github.io/Epicode/23.10.23.v2/)
 - [Day 24.10.23](https://codekaito.github.io/Epicode/24.10.23/)
