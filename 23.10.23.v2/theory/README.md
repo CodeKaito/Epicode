@@ -152,7 +152,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 - esempio: 
 
 ```html
-<div style=”color: red;”>
+<div style="color: red;">
 	<p> Lorem Ipsum </p> // il testo di p sarà in rosso
 </div>
 ```
@@ -162,7 +162,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 - esempio:
 
 ```html
-<div style=”border: 2px solid green”>
+<div style="border: 2px solid green">
 	<p> Lorem Ipsum </p> // p non avrà un bordo
 </div>
 ```
