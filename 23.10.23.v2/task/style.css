@@ -5,9 +5,11 @@
 
 body {
     height: 100vh;
+    width: fit-content;
+    margin: auto;
 }
 
-.main-container {
+main {
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -74,10 +76,12 @@ body {
 }
 
 .pizza-image2 {
-    background-image: url(/23.10.23.v2/task/assets/pizza.webp);
+    background-image: url(https://raw.githubusercontent.com/CodeKaito/Epicode/main/23.10.23.v2/task/assets/pizza.webp);
     width: 600px;
     height: 800px;
     background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #dadada;
 }
 
 .author {
