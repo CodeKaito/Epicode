@@ -222,7 +222,21 @@ dagli elementi circostanti!
 </div>
 ```
 
+### Position: sticky
+- L’oggetto target viene posizionato in base alla posizione corrente di scroll
 
+- La posizione alterna tra “relative” e “fixed”
+
+```html
+<style>
+    h1 {
+        position: sticky;
+        top: 0;
+    }
+</style>
+
+<h1>This element will become "fixed" once it reaches top: 0</h1>
+```
 
 
 

@@ -15,11 +15,7 @@
         body {
             /* font-family: 'M PLUS 1', sans-serif; */
             font-family: 'Noto Serif JP', serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 98vh;
+            height: 2000vh;
         }
 
         .line {
@@ -28,6 +24,8 @@
 
         h1 {
             font-weight: 300;
+            position: sticky;
+            top: 0;
         }
 
     </style>
@@ -40,6 +38,8 @@
         
         <img src="https://picsum.photos/400/" />
         <img src="https://picsum.photos/400/" />
+        
+        <h1>This element will become "fixed" once it reaches top: 0</h1>
     </main>
 </body>
 </html>
