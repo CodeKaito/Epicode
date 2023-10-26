@@ -195,7 +195,7 @@ dagli elementi circostanti!
 
 - L’elemento ignora la posizione degli altri elementi e può sovrapporli.
 
-- Diventa molto utile se usato in coppia con position: relative
+- Diventa molto utile se usato in coppia con position: relative.
 
 ```html
 <style>
