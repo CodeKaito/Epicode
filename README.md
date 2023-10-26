@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository is your comprehensive guide to mastering web development with Epicode's masterclass. Here, you'll find all the necessary resources, code samples, and additional information to complement your learning journey.
+This repository is your comprehensive guide to mastering web development with Epicode's masterclass. Here, you'll find all the necessary resources, code samples, and additional information to complement your learning journey..
 
 ## Table of Contents..
 
