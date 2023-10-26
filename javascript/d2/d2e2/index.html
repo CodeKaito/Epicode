@@ -61,14 +61,59 @@
         <h1 class="centered-div">
             Create a rock, paper, scissor game in Javascript!
         </h1>
+        <form id="myChoice">
+            <input type="submit" value="Rock">
+            <input type="submit" value="Paper">
+            <input type="submit" value="Scissors">
+        </form>
+        
 
-        <input onClick="rock" type="submit" value="rock" id="rock" placeholder="rock" />
-        <input onClick="rock" type="submit" value="paper" id="paper" placeholder="paper" />
-        <input onClick="rock" type="submit" value="scissor" id="scissor" placeholder="scissor" />
+        <p id="winner">Make a choice</p>
     </div>
 
     <script>
-        
+        const computerChoice = Math.floor(Math.random() * 3) + 1;
+
+const choices = {
+  1: 'Rock',
+  2: 'Paper',
+  3: 'Scissors',
+};
+
+const winner = (userChoice, computerChoice) => {
+  if (userChoice === computerChoice) {
+    return 'Draw';
+  }
+
+  if (userChoice === 'Rock' && computerChoice === 'Scissors') {
+    return 'User';
+  }
+
+  if (userChoice === 'Scissors' && computerChoice === 'Paper') {
+    return 'User';
+  }
+
+  if (userChoice === 'Paper' && computerChoice === 'Rock') {
+    return 'User';
+  }
+
+  return 'Computer';
+};
+
+const displayWinner = (winner) => {
+  document.getElementById('winner').textContent = `The winner is ${winner}!`;
+};
+
+document.getElementById('my-choice').addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const userChoice = event.target.querySelector('input[type="submit"]:checked').value;
+
+  const winner = winner(userChoice, computerChoice);
+    console.log(winner);
+  displayWinner(winner);
+});
+
     </script>
 </body>
 

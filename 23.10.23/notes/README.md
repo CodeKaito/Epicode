@@ -1,7 +1,5 @@
 ## Box Model
 
-
-
 ## Unità di misura in CSS
 px = dimensione assoluta in pixel. 
 font-size: 10px imposterà la dimensione del carattere su 10px

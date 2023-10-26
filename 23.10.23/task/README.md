@@ -1,28 +1,19 @@
-## Rispondi alle seguenti domande
-1. Cos'é un algoritmo? Prova a spiegarlo con parole tue, come se dovessi spiegare a qualcuno che non ne capisce niente di informatica.
-2. Cos'é una variabile? Prova a spiegarlo con parole tue, come se dovessi spiegare a qualcuno che non ne capisce niente di informatica.
-3. undefined e null sono la stessa cosa?
+## Da un Mockup a HTML+CSS
+- Il tuo compito sarà creare una pagina web a partire dall'immagine mockup allegata.
+Troverai tutti gli asset necessari in una cartella chiamata "assets".
 
-## Risposte
-1. Un algoritmo é una lista di passaggi che servono per completare o finire un progetto o un problema, ma anche per ottenere dei semplici risultati.
-Possiamo prendere come esempio le istruzioni di Ikea per montare una cassettiera, ci sono vari bulloni, chiodi e pannelli in legno, ecc.. Il risultato finale é la cassettiera, gli input che sono i dati, sono tutti gli assets(vari bulloni, chiodi e pannelli in legno, ecc..) e le istruzioni, sono tutti i passi che devono essere eseguiti, affinché la cassettiera venga montata correttamente. Un algoritmo deve avere 4 caratteristiche fondamentali: finito, deterministico, non ambiguo e generale.
+L'obiettivo è ricreare la pagina il più simile possibile all'immagine allegata.
 
-2. Le variabili sono come memorie che possono ricordare qualsiasi cosa noi vogliamo, possono memorizzare numeri, lettere, parole, frasi. Servono a far si che il computer capisca dove prendere le informazioni che vogliamo passargli.
+Come convertire efficacemente un'immagine mockup in HTML+CSS?
 
-3. Mentre l'undefined é un valore richiamato ma non definito, un valore null é un valore vuoto.
+Crea i "contenitori" principali.
+Analizza l'immagine e dividila in blocchi, partendo da quelli più grandi ed esterni fino a raggiungere le parti più interne della pagina.
+Questi blocchi diventeranno dei blocchi div, e puoi usarli per stilizzare i principali elementi gerarchici della pagina.
+Non focalizzarti troppo sugli elementi minori, almeno all'inizio: identifica solo la struttura principale e ricreala in HTML.
 
-Undefined
-```javascript
-var nome;
-
-for i in nome {
-    ...
-}
-```
-
-Null
-```javascript
-var nome = '';
-```
-
-![image](image.png)
+- Inserisci del contenuto, anche minimo
+Riempire i blocchi delineati con del contenuto, anche "finto", ti aiuterà a visualizzare il tuo progresso all'interno del browser (senza nessun contenuto, tutto quello che vedrai sarà una pagina bianca!).
+    
+- Personalizza il CSS
+Aggiungi classi e id agli elementi HTML, se intendi personalizzarli con del CSS. Se trovi stili che intendi applicare su multipli elementi, utilizza le classi invece degli id.
+Cerca di non utilizzare styling in-line, ma definisci gli stili direttamente in un tag style o file css.
