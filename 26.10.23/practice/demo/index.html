@@ -3,43 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Epicode - Live Coding W1L2 (Marco Longo)</title>
 </head>
 <body>
-
-    <style>
-        
-        body {
-            /* font-family: 'M PLUS 1', sans-serif; */
-            font-family: 'Noto Serif JP', serif;
-            height: 2000vh;
+    <!-- Demo #1 - Crea un <div> con figlio <h1>, assegna una classe al <div> ed un id all'<h1>. 
+    Applica poi un bordo al <div> e colore viola all'<h1>.-->
+    <!-- <style>
+        .container {
+            border: solid 2px green;
         }
-
-        .line {
-            display: inline;
+        #title {
+            color: purple;
         }
-
-        h1 {
-            font-weight: 300;
-            position: sticky;
-            top: 0;
-        }
-
     </style>
+    <div class="container">
+        <h1 id="title">
+            Sono il titolo di pagina!
+        </h1>
+    </div> -->
 
-    <main>
-        <div class="line">
-            <h1>こんにちは、ジェロームです</h1>
-            <h1>こんにちは、ジェロームです</h1>
+    <!-- Demo #2 - Applica ad un <div> di classe fontme una size di 16pt. -->
+    <!-- <style>
+        .fontme {
+            font-size: 16pt;
+        }
+    </style>
+    <div class="fontme">
+        Io sono grosso 16pt!
+    </div> -->
+    
+    <!-- Demo #3 - Allo stesso <div> di Demo #2, applica un carattere monospace 
+        (fallback: Arial). -->
+    <!-- <style>
+        .fontme {
+            font-size: 16pt;
+            font-family: monospace, Arial;
+        }
+    </style>
+    <div class="fontme">
+        Io sono monospace!
+    </div> -->
+
+    <!-- Demo #4 - Crea un <div> con classe google ed applica il font Roboto disponibile su 
+        Google fonts. -->
+
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        .gfont {
+            font-family: Roboto;
+            font-size: 30pt;
+        }
+    </style>
+    <div class="gfont">
+        Io ho un font Roboto!
+    </div> -->
+    
+    <!-- Demo #5 - Applica al <div> di Demo #2 un grassetto di entità 600. -->
+    <!-- <style>
+        .fontme {
+            font-size: 16pt;
+            font-weight: 600;
+        }
+    </style>
+    <div class="fontme">
+        Io sono boldato 600!
+    </div> -->
+    <!-- Demo #6 - Inserisci in questo html un'immagine presente sul web. -->
+    <!-- <img src="https://picsum.photos/400" alt="random_pic"> -->
+
+    <!-- Demo #7 - Assegna ad un <div> 500x500px un'immagine di sfondo. -->
+    <!-- <style>
+        div {
+            width: 500px;
+            height: 500px;
+            background-image: url("https://picsum.photos/500");
+        }
+    </style>
+    <div>
+        Io sono un div con sfondo!
+    </div> -->
+
+    <!-- Demo #8 - Inserisci un <h2>. Controlla la proprietà display nativa. -->
+    <!-- <h2>Sono un h2!</h2> -->
+    
+    <!-- Demo #9 - Fai diventare un <div> (n. block) un elemento inline. 
+        Prova a renderlo 500x500px! Assegnagli un margin top-down di 20px e inserisci 
+        un <div> di tipo block sotto di esso. -->
+    <!-- <style>
+        div.test {
+            display: inline;
+            width: 500px;
+            height: 500px;
+            margin: 20px 0px;
+        }
+    </style>
+    <div class="test">
+        Io sono un div inline!!!
+    </div>
+    <div>
+        Io sono un classico div di tipo block...
+    </div> -->
+    
+    <!-- Demo #10 - Inserisci 2 <div>, assegna al primo visibilità nascosta.
+        Rimuovi poi quest'ultima regola ed applica display none. -->
+    <!-- <style>
+        .target {
+            /* visibility: hidden; */
+            display: none;
+        }
+    </style>
+    <div class="target">
+        Sono il div superiore!
+    </div>
+    <div>
+        Sono il div inferiore!
+    </div> -->
+
+    <!-- Demo #11 - Crea 2 <div>, assegna ad entrambi display inline-block.
+         Assegna dimensione 200x200px e margin-right 15px ad entrambi. -->
+    <!-- <style>
+        div {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin-right: 15px;
+            background-color: lightblue;
+        }
+    </style>
+    <div>
+
+    </div>
+    <div>
+
+    </div> -->
+
+    <!-- Demo #12 - Assegna ad un <h2> una position fixed ed un'altezza di pagina di 2000px. -->
+    <!-- <style>
+        h2 {
+            position: fixed;
+            top: 100px;
+            left: 50px;
+        }
+        body {
+            height: 2000px;
+        }
+    </style>
+    <h2>
+        Io sono un h2!!!
+    </h2> -->
+
+    <!-- Demo #13a - Con lo stesso codice di Demo #12, assegna ora all'<h2> position: relative 
+        e top: 50px -->
+    <!-- <style>
+        h2 {
+            position: relative;
+            top: 50px;
+        }
+        body {
+            height: 2000px;
+        }
+    </style>
+    <h2>
+        Io sono un h2!!!
+    </h2> -->
+    
+    <!-- Demo #13b - Crea un <div> a sfondo grigio 800x800px che contiene un <div> a sfondo 
+        blu 200x200px. Sfrutta le proprietà di display per centrare il figlio rispetto al
+        padre. -->
+    <!-- <style>
+        div.dad {
+            width: 800px;
+            height: 800px;
+            background-color: grey;
+            position: relative;
+        }
+        div.son {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <div class="dad">
+        <div class="son">
+
         </div>
-        
-        <img src="https://picsum.photos/400/" />
-        <img src="https://picsum.photos/400/" />
-        
-        <h1>This element will become "fixed" once it reaches top: 0</h1>
-    </main>
+    </div> -->
+    
+    <!-- Demo #14 - Posiziona un <div> con position sticky sotto 2 div, setta la height del body a 2000px,
+        prova a scrollare la pagina in basso! -->
+    <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sticky_element -->
+
+
 </body>
 </html>
