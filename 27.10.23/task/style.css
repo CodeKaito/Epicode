@@ -177,7 +177,7 @@ body {
 
 .items-container-column {
     background-color: #FFFFFF;
-    height: 280px;
+    height: 310px;
     display: flex;
 }
 
@@ -199,6 +199,7 @@ body {
 .items-column {
     display: flex;
     height: 100px;
+    margin-bottom: 10px;
 }
 
 .items-row {
@@ -211,8 +212,52 @@ body {
     width: 100%;
 }
 
+.items-row > p {
+    font-size: smaller;
+}
+
 .see-more {
+    margin-top: 30px;
     margin-left: 20px;
+}
+
+#sweatshirts{
+    position: relative;
+}
+
+#easy-tees{
+    position: relative;
+}
+
+#electronics{
+    position: relative;
+}
+
+#sweatshirts-new {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, -5%);
+}
+
+#easy-tees-new {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, -5%);
+}
+
+#electronics-new {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, -5%);
 }
 
 .see-more {
