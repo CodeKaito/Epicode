@@ -43,6 +43,7 @@ body {
 }
 
 .homepage {
+
 }
 
 .homepage-container {
@@ -94,6 +95,20 @@ body {
 
 .articles-title {
     display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.articles-title > h4 {
+    font-weight: 1000;
+    margin-right: 20px;
+}
+
+.articles-title > p {
+    font-weight: 1000;
+    font-size: smaller;
+    margin-top: 3px;
+    color: #006F83;
 }
 
 .articles-column {
@@ -107,8 +122,10 @@ body {
 
 .article-row > img {
     border-radius: 20px;
-    height: 250px;
+    height: 270px;
     width: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px #dadada;
 }
 
 .vr-image-container {
@@ -198,7 +215,7 @@ body {
 
 .items-column {
     display: flex;
-    height: 100px;
+    height: 120px;
     margin-bottom: 10px;
 }
 
@@ -209,7 +226,7 @@ body {
 
 .items-row > img {
     height: 80px;
-    width: 100%;
+    width: 80%;
 }
 
 .items-row > p {
