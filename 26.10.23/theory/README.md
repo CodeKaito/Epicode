@@ -65,7 +65,7 @@ h1#title1 {
 
 - Ci sono 25 (🤯) valori della proprietà display
 
-- Andremo a vedere solo i PRINCIPALI
+- Andremo a vedere solo i PRINCIPALI.
 
 - Flex avrà una lezione dedicata.
 
