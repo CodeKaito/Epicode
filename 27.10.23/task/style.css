@@ -292,7 +292,9 @@ body {
 .banner-footer > p {
     text-align: center;
     padding: 3px;
-    text-decoration: underline;
+}
+
+.banner-footer > a {
     color: #EAEDEE;
 }
 
