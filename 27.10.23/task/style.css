@@ -169,6 +169,15 @@ body {
     font-size: smaller;
 }
 
+.items-superior-container {
+    margin-bottom: 20px;
+}
+
+.items-container {
+    background-color: #FFFFFF;
+    height: 300px;
+}
+
 .banner-footer {
     height: 40px;
     background-color: #354758;
