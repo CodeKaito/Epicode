@@ -109,6 +109,7 @@ body {
     font-size: smaller;
     margin-top: 3px;
     color: #006F83;
+    cursor: pointer;
 }
 
 .articles-column {
@@ -215,7 +216,7 @@ body {
 
 .items-column {
     display: flex;
-    height: 120px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
@@ -226,7 +227,7 @@ body {
 
 .items-row > img {
     height: 80px;
-    width: 80%;
+    width: 100%;
 }
 
 .items-row > p {
