@@ -6,7 +6,7 @@
 body {
     margin: auto;
     max-width: 1000px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 .padding-left {
@@ -24,26 +24,23 @@ body {
 }
 
 .categories-amazon {
-    display: flex;
     background-color: #354758;
     color: #F0F2F1;
+    padding-left: 20px;
 }
 
 .categories-amazon > p {
+    display: inline;
     font-size: smaller;
     font-weight: 500;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 20px;
+    padding-left: 5px;
     cursor: pointer;
 }
 
 .pointer {
     cursor: pointer;
-}
-
-.homepage {
-
 }
 
 .homepage-container {
@@ -94,17 +91,18 @@ body {
 }
 
 .articles-title {
-    display: flex;
     padding-top: 10px;
     padding-left: 15px;
 }
 
 .articles-title > h4 {
+    display: inline;
     font-weight: 1000;
     margin-right: 20px;
 }
 
 .articles-title > p {
+    display: inline;
     font-weight: 1000;
     font-size: smaller;
     margin-top: 3px;
@@ -142,16 +140,17 @@ body {
 }
 
 .vr-image-title {
-    display: flex;
     text-align: center;
     justify-content: center;
 }
 
 .vr-image-title > h4 {
+    display: inline;
     margin-right: 20px;
 }
 
 .vr-image-title > p {
+    display: inline;
     margin-top: 3px;
     margin-right: 20px;
     color: #075968;
@@ -172,16 +171,17 @@ body {
 }
 
 .marshall-title {
-    display: flex;
     text-align: center;
     justify-content: center;
 }
 
 .marshall-title > h4 {
+    display: inline;
     margin-right: 20px;
 }
 
 .marshall-title > p {
+    display: inline;
     margin-top: 3px;
     margin-right: 20px;
     color: #075968;
