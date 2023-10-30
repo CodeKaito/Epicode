@@ -63,6 +63,8 @@
 
         <button onclick="playGame('scissors')">Scissors</button>
 
+        <button onclick="score.wins = 0; score.losses = 0; score.ties = 0 ">Reset Score</button>
+
         <script>
             const score = {
                 wins: 0,
@@ -101,7 +103,7 @@
                     } else if (computerMove == 'scissors') {
                         result = 'You win.';
                     }  
-                }
+                }	
 
                 if (result = 'You win.') {
                     score.wins =+ 1;
@@ -131,6 +133,7 @@
                 return computerMove;
             }
 
+
         </script>
         
     </div>
@@ -141,3 +144,4 @@
 </footer>
 
 </html>
+
