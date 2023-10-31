@@ -3,9 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Epicode - Live Coding W2L1 (Marco Longo)</title>
 </head>
 <body>
+    <!-- Marco -->
+    <!-- Demo #1 - Crea un <div> con classe spec_class ed id spec_id, assegnagli: 
+    1. Colore arancione con selettore di tag div;
+    2. Colore viola con selettore di classe spec_class;
+    3. Colore grigio con selettore di tag & classe spec_class;
+    4. Colore verde con selettore di id spec_id;
+    5. Colore marrone tramite attributo style in-line.
+    6. Colore blu con direttiva important in un altro selettore di tag div.
+    -->
+    <!-- <style>
+        .spec_class {
+            color: purple;
+        }
+        div {
+            color: orange;
+        }
+        div.spec_class {
+            color: grey;
+        }
+        #spec_id {
+            color: green;
+        }
+        div {
+            color: blue !important;
+        }
+    </style>
+    <div class="spec_class" id="spec_id" style="color: brown !important;">
+        Io sono un div con spec_class!
+    </div> -->
+    <!-- Demo #2a - Crea un <div> che contiene un input text e 3 <p> 
+        (di cui il terzo con classe test):
+    1. Applica colore rosso al passaggio del mouse sul primo <p>
+    2. Applica sfondo verde al focus sull'<input>
+    3. Assegna l'underline ai <p> senza classe test. 
+    4. Ora dai margin 50px a tutti i <p> che non hanno figli.
+    -->
+    <!-- <style>
+        p:first-child:hover {
+            color: red;
+        }
+        input:focus {
+            background-color: green;
+        }
+        p:not(.test) {
+            text-decoration: underline;
+        }
+        p:empty {
+            margin: 50px;
+        }
+        p:last-child {
+            color: green;
+        }
+    </style>
+    <div>
+        <p>Sono un p</p>
+        <p>Sono un p</p>
+        <p class="test">Sono un p</p>
+        <p>Sono un ultimo figlio...</p>
+        <input type="text">
+    </div> -->
+
+    <!-- Demo #2b - Assegna un testo "BEFORE" come before e "AFTER" come after ad un <div>." -->
+    <!-- <style>
+        div::before {
+            content: "PIPPO";
+        }
+        div::after {
+            content: "AFTER";
+        }
+    </style>
+    <div>
+        Io sono il contenuto del div!
+    </div> -->
+    <!-- Demo #2c - Applica colore rosso solo alla prima riga di un <p> con dentro un lungo testo. -->
+    <!-- <style>
+        div::first-line {
+            color: red;
+        }
+    </style>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, architecto esse, reiciendis itaque eius tenetur cumque impedit molestias dolore porro atque? Eligendi amet quam explicabo id delectus! Provident, sed mollitia? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos iure iusto laborum dolor modi facilis neque, esse consequatur architecto dolore quod fugit nihil suscipit, quia ullam! Amet iste commodi praesentium.
+    </div> -->
+    <!-- Demo #2d - Rendi arancione il marker dei <li> di una <ul>. -->
+    <!-- <style>
+        /* ul {
+            list-style: none;
+        } */
+        ul li::marker {
+            color: orange;
+        }
+    </style>
+    <ul>
+        <li>Carne</li>
+        <li>Pesce</li>
+    </ul> -->
+
+    <!-- Demo #2e - Applica background giallo alla selezione di testo di un <div> -->
+    <!-- <style>
+       p::selection {
+        background-color: lime;
+       } 
+    </style>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo eligendi tempore, optio, distinctio dicta libero facilis, id error cupiditate dignissimos rem tempora autem nesciunt in ipsum veritatis ex dolorum.
+    </p> -->
+    <!-- Demo #3 - Carica l'attuale live coding di oggi su GitHub tramite linea di comando. -->
+
+    <!-- Demo border-radius -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius -->
+
+    <!-- Demo overflow -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow -->
+
+    <!-- Demo object-fit -->
+
+    <!-- <style>
+        .image {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+        }
+    </style>
+    <img class="image" src="https://ia803103.us.archive.org/28/items/cd_aladdin-sane_david-bowie_1/cd_aladdin-sane_david-bowie_1_itemimage.png" alt=""> -->
     
+    <!-- Demo box-shadow -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow -->
+
+    <!-- Demo transition - Crea un <div> 200x200px con background viola e proprietà di transition lineare sul 
+        background con durata 2s e delay 0.5s. -->
+    <!-- Sintassi - transition: property duration timing_fn delay; -->
+
+    <!-- <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: purple;
+            transition: background 2s linear 0.5s;
+            background: linear-gradient(to left bottom, )
+        }
+        div:hover {
+            background: grey;
+        }
+    </style>
+    <div>
+        Io sono un div!
+    </div> -->
+
+    <!-- Demo overlay -->
+    <!-- Resource: https://codepen.io/lordgiotto/pen/QWjyNNL -->
+
+    <!-- Demo linear-gradient -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient -->
+
+    <!-- Demo z-index: Crea 2 <div> inline-block 300x300px, uno con classe left e sfondo grigio e l'altro 
+        con classe right e sfondo blu. Muovere il <div> right di 150px a sinistra rispetto al <div> left. 
+        Attribuire ora al <div> left z-index pari a 1. -->
+    
+    <!-- <style>
+        div.left, div.right {
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+        }
+        div.left {
+            background-color: grey;
+            position: relative;
+            z-index: 1;
+        }
+        div.right {
+            background-color: blue;
+            position: absolute;
+            left: 150px;
+        }
+    </style>
+    <div class="left">
+    </div>
+    <div class="right">
+    </div> -->
+    
+    <!-- Demo Ellipsis - Crea un <p> con un testo molto lungo, applica le direttive dell'ellipsis per 
+        eliderlo.-->
+    <!-- <style>
+        div {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo ut, aliquam ad reprehenderit deleniti deserunt expedita pariatur ex, provident praesentium quia consequuntur! Sint nihil facilis quae ut. Quisquam, dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad aliquid fugit saepe earum voluptatem deserunt fugiat non quod, nemo deleniti aspernatur obcaecati eos rem temporibus, nobis, labore beatae dolor voluptate.
+    </div> -->
+    
+    <!-- Demo user-select -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/user-select -->
+
+    <!-- Demo CSS circles -->
+    <!-- Resource: https://codepen.io/lordgiotto/pen/mdeVyoL -->
+
+    <!-- Demo CSS triangles -->
+    <!-- Resource: https://css-tricks.com/snippets/css/css-triangle/ -->
+
+    <!-- Demo cursor -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor -->
+
+    <!-- Demo opacity -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/opacity -->
+
+    <!-- Demo transform -->
+    <!-- Resource: https://developer.mozilla.org/en-US/docs/Web/CSS/transform -->
+
 </body>
 </html>

@@ -15,29 +15,11 @@ body {
 
 .logo-container {
     height: 30px;
+    width: 30px;
 }
 
 .logo {
     height: 100%;
-}
-
-.left-navbar {
-    margin-left: 30px;
-    display: flex;
-}
-
-.homepage-navbar {
-
-}
-
-.homepage-text {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.right-navbar {
-    display: flex;
 }
 
 .homepage {
@@ -50,17 +32,83 @@ body {
 }
 
 .card {
-    width: 250px;
+    width: max-content;
     height: 550px;
+    position: relative;
 }
 
 .image {
     height: 100%;
     border-radius: 20px;
-    position: relative;
 }
 
-.buttons {
-    z-index: 1;
+.save-container {
+    height: 50px;
+    width: 80px;
     position: absolute;
+    top: 2%;
+    right: 4%;
+    background-color: #AD0A1B;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+}
+
+.save {
+    color: white;
+    font-weight: 600;
+}
+
+.link-container {
+    height: 7%;
+    width: 60%;
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.link-container > span {
+    margin-right: 5px;
+}
+
+.button2-container {
+    height: 7%;
+    width: 11%;
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.button1-container {
+    height: 7%;
+    width: 11%;
+    position: absolute;
+    bottom: 2%;
+    right: 18%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.show-when-hover {
+    visibility: hidden;
+}
+
+.image:hover + .show-when-hover {
+    pointer-events:none;
+    visibility: visible;
 }
