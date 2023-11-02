@@ -43,17 +43,23 @@ Agisce sull'asse secondario.
 ![Alt text](image-1.png)
 
 ## Align-content
-- flex-start -
+- flex-start - Tutti all'inizio
 
-- flex-end -
+- flex-end - Tutti alla fine
 
-- center -
+- center - In mezzo
 
-- space-around -
+- space-around - Da spazio a tutti i div
 
-- space-between -
-
-- space-evenly -
+- space-between - 
 
 - stretch(default) -
 ![Alt text](image-2.png)
+
+### Align-self
+Cambia aling-item solo per un elemento specifico
+![Alt text](image-3.png)
+
+### Order
+É possibile definire l'ordine personalizzato dei div figli di flex.
+![Alt text](image-4.png)
