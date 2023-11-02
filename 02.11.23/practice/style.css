@@ -1,0 +1,11 @@
+.container {
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.flex-item {
+    padding: 2em;
+    border: solid 2px blue;
+}
