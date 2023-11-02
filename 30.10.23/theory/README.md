@@ -14,7 +14,7 @@
 
 - :not(<condition>) => Applica una regola quando la <condition> non é vera
 
-- :first-child || :last:child => selezions l'elemento che é il primo o l'ultimo dei figli
+- :first-child || :last:child => seleziona l'elemento che é il primo o l'ultimo dei figli
 
 - :nth-child(n) => Applica una regola alla n elementi
 
