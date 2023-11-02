@@ -178,6 +178,7 @@ textarea:focus, input:focus{
     height: 400px;
     position: relative;
     margin: 20px;
+    overflow: hidden;
 }
 
 .image {
@@ -192,7 +193,7 @@ textarea:focus, input:focus{
 
 .save-container {
     position: absolute;
-    bottom: 2%;
+    top: -10%;
     right: 4%;
     display: flex;
     align-items: center;
@@ -217,7 +218,7 @@ textarea:focus, input:focus{
     height: 7%;
     width: 60%;
     position: absolute;
-    top: 2%;
+    bottom: -10%;
     left: 4%;
     border-radius: 30px;
     display: flex;
@@ -235,7 +236,7 @@ textarea:focus, input:focus{
     height: 7%;
     width: 11%;
     position: absolute;
-    top: 2%;
+    bottom: -10%;
     right: 4%;
     border-radius: 30px;
     display: flex;
@@ -249,7 +250,7 @@ textarea:focus, input:focus{
     height: 7%;
     width: 11%;
     position: absolute;
-    top: 2%;
+    bottom: -10%;
     right: 18%;
     border-radius: 30px;
     display: flex;
@@ -266,29 +267,29 @@ textarea:focus, input:focus{
 .image:hover + .show-when-hover > .save-container {
     pointer-events:none;
     visibility: visible;
-    transform: translateY(-330px);
-    transition: transform 1s ease-in;
+    transform: translateY(50px);
+    transition: transform 0.2s ease-in;
 }
 
 .image:hover + .show-when-hover > .link-container {
     pointer-events:none;
     visibility: visible;
-    transform: translateY(350px);
-    transition: transform 1s ease-in;
+    transform: translateY(-50px);
+    transition: transform 0.2s ease-in;
 }
 
 .image:hover + .show-when-hover > .button1-container {
     pointer-events:none;
     visibility: visible;
-    transform: translateY(350px);
-    transition: transform 1s ease-in;
+    transform: translateY(-50px);
+    transition: transform 0.2s ease-in;
 }
 
 .image:hover + .show-when-hover > .button2-container {
     pointer-events:none;
     visibility: visible;
-    transform: translateY(350px);
-    transition: transform 1s ease-in;
+    transform: translateY(-50px);
+    transition: transform 0.2s ease-in;
 }
 
 @media only screen and (max-width: 1100px) {
