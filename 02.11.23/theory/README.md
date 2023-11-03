@@ -26,6 +26,7 @@ Agisce sull'asse secondario.
 - stretch: i div li allunga;
 
 - baseline: allinea rispetto alla linea di testo;
+
 ![Alt text](image.png)
 
 ## Justify-content
@@ -40,6 +41,7 @@ Agisce sull'asse secondario.
 - space-around - Da lo spazio ad ogni div in modo omogeneo, ma senza all'inizio e alla fine;
 
 - space-evenly - Da lo spazio ad ogni div in modo omogeneo;
+
 ![Alt text](image-1.png)
 
 ## Align-content
@@ -54,12 +56,16 @@ Agisce sull'asse secondario.
 - space-between - 
 
 - stretch(default) -
+
 ![Alt text](image-2.png)
 
 ### Align-self
 Cambia aling-item solo per un elemento specifico
+
 ![Alt text](image-3.png)
 
 ### Order
 É possibile definire l'ordine personalizzato dei div figli di flex.
+
 ![Alt text](image-4.png)
+
