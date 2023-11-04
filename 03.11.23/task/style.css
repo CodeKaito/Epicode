@@ -466,6 +466,12 @@ main {
 }
 
 .user-informations-follow-container {
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Numero di righe desiderato */
+    -webkit-box-orient: vertical;
     align-content:flex-start;
 }
 
