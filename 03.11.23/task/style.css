@@ -15,10 +15,15 @@ body {
 }
 
 .navbar-bottomline {
+    background-color: white;
     box-shadow: 1px 3px 3px #e7e7e7;
+    top: 0;
+    position: sticky;
+    z-index: 1;
 }
 
 .navbar {
+    filter: blur();
     height: 57px;
     display: flex;
     justify-content: space-around;
@@ -127,7 +132,7 @@ main {
 }
 
 .topbar-container {
-    top: 0;
+    top: 59px;
     z-index: 1;
     position: sticky;
     background-color: rgba(255, 255, 255, 1);
@@ -461,6 +466,12 @@ main {
 }
 
 .user-informations-follow-container {
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Numero di righe desiderato */
+    -webkit-box-orient: vertical;
     align-content:flex-start;
 }
 
