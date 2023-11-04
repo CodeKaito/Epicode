@@ -73,9 +73,114 @@ Questi valori possono essere applicati al contenitore flessibile (quello con `di
 ![image](https://github.com/CodeKaito/Epicode/assets/57111980/3b28407f-d623-4c97-affb-911fad36cfdd)
 
 ## JUSTIFY-CONTENT
+La proprietà `justify-content` in Flexbox è utilizzata per allineare gli elementi lungo l'asse principale (asse principale) all'interno del contenitore flessibile. Ecco una spiegazione dei principali valori che può assumere:
 
+1. **flex-start**: Gli elementi sono allineati all'inizio del contenitore lungo l'asse principale. Ad esempio, se l'asse principale è orizzontale, gli elementi saranno allineati a sinistra del contenitore.
+
+    ```css
+    .container {
+      justify-content: flex-start;
+    }
+    ```
+
+2. **flex-end**: Gli elementi sono allineati alla fine del contenitore lungo l'asse principale. Ad esempio, se l'asse principale è orizzontale, gli elementi saranno allineati a destra del contenitore.
+
+    ```css
+    .container {
+      justify-content: flex-end;
+    }
+    ```
+
+3. **center**: Gli elementi sono allineati al centro del contenitore lungo l'asse principale.
+
+    ```css
+    .container {
+      justify-content: center;
+    }
+    ```
+
+4. **space-between**: Gli elementi sono distribuiti uniformemente nel contenitore, con spazio tra gli elementi.
+
+    ```css
+    .container {
+      justify-content: space-between;
+    }
+    ```
+
+5. **space-around**: Gli elementi sono distribuiti uniformemente nel contenitore, con spazio sia prima che dopo ogni elemento.
+
+    ```css
+    .container {
+      justify-content: space-around;
+    }
+    ```
+
+6. **space-evenly**: Gli elementi sono distribuiti uniformemente nel contenitore con spazio uguale prima, tra e dopo ogni elemento.
+
+    ```css
+    .container {
+      justify-content: space-evenly;
+    }
+    ```
+
+Questi valori possono essere applicati al contenitore flessibile (quello con `display: flex` o `display: inline-flex`) e determinano come gli elementi flessibili all'interno del contenitore vengono allineati lungo l'asse principale. La scelta del valore dipenderà dal layout specifico che si desidera ottenere.
+
+![image](https://github.com/CodeKaito/Epicode/assets/57111980/edd744cd-f61d-47fa-9699-6bc2611412d5)
 
 ## ALIGN-CONTENT
+La proprietà `align-content` in Flexbox è utilizzata per allineare i gruppi di elementi flessibili quando ci sono più righe o colonne all'interno di un contenitore flessibile. Questa proprietà ha effetto solo quando ci sono più righe o colonne di elementi nel contenitore. Ecco una spiegazione dei principali valori che può assumere:
+
+1. **flex-start**: Allinea i gruppi di elementi all'inizio del contenitore lungo l'asse trasversale.
+
+    ```css
+    .container {
+      align-content: flex-start;
+    }
+    ```
+
+2. **flex-end**: Allinea i gruppi di elementi alla fine del contenitore lungo l'asse trasversale.
+
+    ```css
+    .container {
+      align-content: flex-end;
+    }
+    ```
+
+3. **center**: Allinea i gruppi di elementi al centro del contenitore lungo l'asse trasversale.
+
+    ```css
+    .container {
+      align-content: center;
+    }
+    ```
+
+4. **space-between**: Distribuisce uniformemente i gruppi di elementi lungo l'asse trasversale; il primo è allineato all'inizio e l'ultimo alla fine.
+
+    ```css
+    .container {
+      align-content: space-between;
+    }
+    ```
+
+5. **space-around**: Distribuisce uniformemente i gruppi di elementi lungo l'asse trasversale con uno spazio uguale attorno ad ognuno.
+
+    ```css
+    .container {
+      align-content: space-around;
+    }
+    ```
+
+6. **stretch**: Allunga i gruppi di elementi per riempire l'altezza del contenitore lungo l'asse trasversale.
+
+    ```css
+    .container {
+      align-content: stretch;
+    }
+    ```
+
+Questi valori sono simili a quelli della proprietà `align-items`, ma `align-content` agisce su più righe o colonne di elementi, mentre `align-items` agisce su singoli elementi lungo l'asse trasversale. La scelta del valore dipenderà dal layout specifico che si desidera ottenere in presenza di più righe o colonne nel contenitore flessibile.
+
+![image](https://github.com/CodeKaito/Epicode/assets/57111980/d0bcc448-42c2-4dcf-9c0a-bef42f7ef0a4)
 
 
 ## FLEX-WRAP
