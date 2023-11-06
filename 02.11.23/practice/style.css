@@ -1,10 +1,32 @@
-.container {
+/* body {
+    width: 1000px;
+} */
+
+div.container {
     height: 700px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: baseline; */
+    /* justify-content: space-evenly; */
+    /* align-content: space-around; */
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+}
+div.flex-item {
+    padding: 2em;
+    border: solid 1px blue;
+    height: 100px;
+}
+div.item-five {
+    /* align-self: flex-start; */
+    order: -1;
+}
+div.item-six {
+    order: 3;
 }
 
-.flex-item {
-    padding: 2em;
-    border: solid 2px blue;
-    height: 100px;
+div.item-seven {
+    order: 2;
 }
