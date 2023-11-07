@@ -187,5 +187,3 @@ In generale, se una variabile è dichiarata ma non inizializzata, o se una funzi
     let zero = 0;
     let negativeZero = -0;
     ```
-
-Questi sono alcuni dei valori speciali che possono essere utilizzati in JavaScript per rappresentare condizioni specifiche o risultati particolari.
