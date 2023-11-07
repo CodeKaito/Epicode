@@ -1,0 +1,5 @@
+"use strict";
+
+var a = 1;
+var b;
+console.log(a == b ? true : false);
