@@ -170,5 +170,212 @@ let numeroIntero = parseInt(stringaNumero);
 console.log(numeroIntero); // Stampa: 42
 ```
 
+## Operatori logici
+Restituiscono un boolean: true or false;
 
+In JavaScript, gli operatori logici sono utilizzati per eseguire operazioni logiche tra valori booleani o valori che possono essere valutati come booleani (noti come truthy o falsy). Ecco gli operatori logici principali:
+
+1. Operatore AND (`&&`):
+
+L'operatore AND restituisce `true` se entrambi gli operandi sono `true`, altrimenti restituisce `false`.
+
+```javascript
+let a = true;
+let b = false;
+
+let risultato = a && b;
+
+console.log(risultato); // Stampa: false
+```
+
+`&&` operator with different combinations of `true` and `false`:
+
+|   x   |   y   | x && y |
+|-------|-------|--------|
+| true  | true  | true   |
+| true  | false | false  |
+| false | true  | false  |
+| false | false | false  |
+
+
+2. Operatore OR (`||`):
+
+L'operatore OR restituisce `true` se almeno uno degli operandi è `true`, altrimenti restituisce `false`.
+
+```javascript
+let a = true;
+let b = false;
+
+let risultato = a || b;
+
+console.log(risultato); // Stampa: true
+```
+
+`||` operator with different combinations of `true` and `false`:
+
+|   x   |   y   | x || y |
+|-------|-------|--------|
+| true  | true  | true   |
+| true  | false | true   |
+| false | true  | true   |
+| false | false | false  |
+
+This table shows the possible combinations of `false` and `true` for the operands and the corresponding result when using the logical OR operator.
+
+3. Operatore NOT (`!`):
+
+L'operatore NOT inverte il valore di verità di un'operazione, restituendo `true` se l'operando è `false`, e viceversa.
+
+```javascript
+let a = true;
+
+let risultato = !a;
+
+console.log(risultato); // Stampa: false
+```
+
+- Esempio con Valori Truthy e Falsy:
+
+Gli operatori logici possono essere utilizzati con valori che sono implicitamente considerati come truthy o falsy. Valori truthy sono considerati come `true` in un contesto booleano, mentre valori falsy sono considerati come `false`.
+
+```javascript
+let valoreTruthy = "Hello";
+let valoreFalsy = "";
+
+let risultato = valoreTruthy && "World";
+
+console.log(risultato); // Stampa: "World"
+
+risultato = valoreFalsy || "Default";
+
+console.log(risultato); // Stampa: "Default"
+```
+
+In questo esempio, l'operatore AND restituisce il secondo operando, poiché entrambi sono truthy. L'operatore OR restituisce il primo operando truthy, poiché l'altro è falsy.
+
+In JavaScript, gli operatori di disuguaglianza sono utilizzati per confrontare due valori e determinare se sono diversi. Ecco gli operatori di disuguaglianza principali:
+
+1. Operatore di disuguaglianza stretta (`===`):
+
+L'operatore di disuguaglianza stretta restituisce `true` se gli operandi sono uguali e dello stesso tipo, altrimenti restituisce `false`.
+
+```javascript
+let x = 5;
+let y = "5";
+
+let risultato = x === y;
+
+console.log(risultato); // Stampa: false
+```
+
+2. Operatore di uguaglianza stretta (`!==`):
+
+L'operatore di uguaglianza stretta restituisce `true` se gli operandi sono diversi o se sono di tipi diversi, altrimenti restituisce `false`.
+
+```javascript
+let x = 5;
+let y = "5";
+
+let risultato = x !== y;
+
+console.log(risultato); // Stampa: true
+```
+
+3. Operatore di disuguaglianza (`!=`):
+
+L'operatore di disuguaglianza restituisce `true` se gli operandi sono diversi, anche se sono di tipi diversi e possono essere convertiti l'uno nell'altro, altrimenti restituisce `false`.
+
+```javascript
+let x = 5;
+let y = "5";
+
+let risultato = x != y;
+
+console.log(risultato); // Stampa: false
+```
+
+4. Operatore di uguaglianza (`==`):
+
+L'operatore di uguaglianza restituisce `true` se gli operandi sono uguali dopo la conversione di tipo, altrimenti restituisce `false`.
+
+```javascript
+let x = 5;
+let y = "5";
+
+let risultato = x == y;
+
+console.log(risultato); // Stampa: true
+```
+
+È importante notare che l'uso degli operatori di uguaglianza e disuguaglianza senza restrizioni (`==` e `!=`) può portare a risultati imprevisti a causa delle conversioni di tipo automatiche. Di solito, è preferibile utilizzare gli operatori stretti (`===` e `!==`) per evitare conversioni di tipo indesiderate.
+
+## Operatori di comparazioni
+Gli operatori di comparazione in JavaScript sono utilizzati per confrontare due valori e determinare la relazione tra di essi. Ecco gli operatori di comparazione principali:
+
+1. Operatore di maggiore (`>`):
+
+L'operatore di maggiore restituisce `true` se il primo operando è maggiore del secondo, altrimenti restituisce `false`.
+
+```javascript
+let x = 10;
+let y = 5;
+
+let risultato = x > y;
+
+console.log(risultato); // Stampa: true
+```
+
+2. Operatore di minore (`<`):
+
+L'operatore di minore restituisce `true` se il primo operando è minore del secondo, altrimenti restituisce `false`.
+
+```javascript
+let x = 10;
+let y = 5;
+
+let risultato = x < y;
+
+console.log(risultato); // Stampa: false
+```
+
+3. Operatore di maggiore o uguale (`>=`):
+
+L'operatore di maggiore o uguale restituisce `true` se il primo operando è maggiore o uguale al secondo, altrimenti restituisce `false`.
+
+```javascript
+let x = 10;
+let y = 10;
+
+let risultato = x >= y;
+
+console.log(risultato); // Stampa: true
+```
+
+4. Operatore di minore o uguale (`<=`):
+
+L'operatore di minore o uguale restituisce `true` se il primo operando è minore o uguale al secondo, altrimenti restituisce `false`.
+
+```javascript
+let x = 10;
+let y = 5;
+
+let risultato = x <= y;
+
+console.log(risultato); // Stampa: false
+```
+
+- Esempio di Utilizzo:
+
+```javascript
+let a = 10;
+let b = 20;
+
+if (a > b) {
+  console.log("a è maggiore di b");
+} else if (a < b) {
+  console.log("a è minore di b");
+} else {
+  console.log("a è uguale a b");
+}
+```
 
