@@ -6,6 +6,4 @@ let student = {
     hasWebcam: true,
 };
 
-let somma = Math.add(5, 3);
-
-console.log(somma);
+console.log(false || false);

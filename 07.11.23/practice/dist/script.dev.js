@@ -7,5 +7,4 @@ var student = {
   batch: "FS-Jun21",
   hasWebcam: true
 };
-var somma = Math.add(5, 3);
-console.log(somma);
+console.log(false || false);
