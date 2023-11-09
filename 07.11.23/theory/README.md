@@ -70,3 +70,105 @@ let persona = {
 ```
 
 In questo caso, `persona` è un oggetto con tre proprietà: `nome`, `età` e `indirizzo`. L'oggetto `indirizzo` a sua volta ha due proprietà: `via` e `città`.
+
+## Operatori aritmetici
+- Somma
+Utilizzando l'operatore `+`:
+
+```javascript
+let somma = 5 + 3;
+console.log(somma); // Stampa: 8
+```
+
+- Sottrazione
+Utilizzando l'operatore `-`:
+
+```javascript
+let differenza = 8 - 3;
+console.log(differenza); // Stampa: 5
+```
+
+- Moltiplicazione
+Utilizzando l'operatore `*`:
+
+```javascript
+let prodotto = 4 * 6;
+console.log(prodotto); // Stampa: 24
+```
+
+- Divisione
+Utilizzando l'operatore `/`:
+
+```javascript
+let divisione = 10 / 2;
+console.log(divisione); // Stampa: 5
+```
+
+- Modulo
+Utilizzando l'operatore `%`:
+
+```javascript
+let resto = 10 % 3;
+console.log(resto); // Stampa: 1 (il resto della divisione di 10 per 3)
+```
+
+- Espressione Algebrica
+
+Un'espressione algebrica può coinvolgere una combinazione di operatori e variabili. Ecco un esempio:
+
+```javascript
+let risultato = (4 * 3) + (8 / 2);
+console.log(risultato); // Stampa: 18 (risultato di (4 * 3) + (8 / 2))
+```
+
+### Operatore '+'
+In JavaScript, l'operatore `+` ha diversi utilizzi a seconda del contesto in cui viene utilizzato:
+
+1. **Addizione:**
+   - Quando viene utilizzato tra due numeri, esegue l'operazione di addizione.
+
+    ```javascript
+    let somma = 3 + 4;
+    console.log(somma); // Stampa: 7
+    ```
+
+2. **Concatenazione di stringhe:**
+   - Se uno degli operandi è una stringa, l'operatore `+` concatena le stringhe.
+
+    ```javascript
+    let stringaConcatenata = "Ciao " + "mondo";
+    console.log(stringaConcatenata); // Stampa: "Ciao mondo"
+    ```
+
+3. **Conversione di numeri in stringhe:**
+   - Se uno degli operandi è una stringa e l'altro è un numero, il numero viene convertito in una stringa e poi avviene la concatenazione.
+
+    ```javascript
+    let numero = 42;
+    let stringa = "Il numero è: " + numero;
+    console.log(stringa); // Stampa: "Il numero è: 42"
+    ```
+
+4. **Unario positivo:**
+   - Quando precede un singolo operando, può essere utilizzato come operatore unario positivo, convertendo l'operando in un numero.
+
+    ```javascript
+    let stringaNumero = "42";
+    let numeroDaStringa = +stringaNumero;
+    console.log(numeroDaStringa); // Stampa: 42
+    ```
+
+L'operatore `+` si comporta in modo diverso a seconda del contesto, eseguendo l'addizione o la concatenazione a seconda dei tipi degli operandi.
+
+## parseInt() e parseFloat()
+parseInt() é un costruttore che serve per convertire una stringa, in Int.
+
+```javascript
+let stringaNumero = "42";
+let numeroIntero = parseInt(stringaNumero);
+
+console.log(numeroIntero); // Stampa: 42
+```
+
+
+
