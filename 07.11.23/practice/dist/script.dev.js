@@ -7,4 +7,4 @@ var student = {
   batch: "FS-Jun21",
   hasWebcam: true
 };
-console.log(false || false);
+console.log(false >= false);
