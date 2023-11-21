@@ -145,8 +145,17 @@
 
 //TODO EXTRA (Se c'è tempo...)
 //* Dato un array di numeri interi, stampare in console il doppio del valore dell'elemento (se questo ha indice pari), il triplo se questo ha indice dispari.
-// Fornite voi la vostra soluzione...
-// La mia soluzione:
-let array = [ 1, 2, 3, 4, 5, 6, 7 ];
-for (let i = 0; i < array.length; i++)
-    console.log(i % 2 ? 3 * array[i] : 2 * array[i]);
+let array = [2,1,9,3];
+let result = [];
+
+for (let i = 0; i < array.length; i++) {
+    if (i === 0) {
+        result.push(array[i]);
+    } else if (i% 2 === 0) {
+        result.push(array[i]*2);
+    } else if (i% 2 !== 0) {
+        result.push(array[i]*3);
+    }
+}
+
+console.log(result);
