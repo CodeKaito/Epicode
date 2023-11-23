@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Exercise</title>
+</head>
+<body>
+
+  <h1 id="main-heading">
+    <li>Exercise on DOM</li>
+    <li>Esercizi</li>
+  </h1>
+
+  <div id="content-container">
+    <p id="paragraph">This is a paragraph. <span id="span-text">This is a span inside the paragraph.</span></p>
+    <ul id="list-container">
+      <li class="item">List Item 1</li>
+      <li class="item">List Item 2</li>
+      <li class="item">List Item 3</li>
+      <li class="fakeItem">List Item 4</li>
+      <li class="fakeItem">List Item 5</li>
+    </ul>
+  </div>
+
+  <div id="make-me-red">
+    Questo div deve diventare rosso...
+  </div>
+
+  <div class="make-me-blu">
+    Questo div deve diventare blu...
+  </div>
+
+  <button id="myButton" onClick="alertMe()">Alert</button>
+  <button id="change-style-btn">Change Style</button>
+
+  <script>
+    // let myDiv = document.getElementById("make-me-red");
+
+    let myClassDivs = document.getElementsByClassName("make-me-blu");
+
+    let myList = document.getElementsByTagName("li");
+
+    let firstLi = document.querySelector("li.fakeItem");
+    
+    let allLi = document.querySelectorAll("li.fakeItem");
+
+    let listTitleItem = document.getElementById("main-heading").children;
+    
+    let myDiv = document.getElementById("make-me-red");
+    myDiv.innerText = "Sono stato modificato";
+
+    myDiv.style.display = "flex";
+
+    let newEl = document.createElement("div");
+
+    function alertMe() {
+        alert("alertMe");
+    };
+
+    
+
+
+  </script>
+
+</body>
+</html>
