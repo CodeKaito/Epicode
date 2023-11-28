@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Input, Events & Listeners</h1>
+    <div id="main-content">
+        <label for="my-input">Il mio input-text</label>
+        <br/><br/>
+        <input type="text" class="text" id="my-input" value="my-input-value" placeholder="Insert your name..." />
+        <br/><br/>
+        <button type="button" id="my-button">Click Me!</button>
+    </div>
+    <br/>
+    <hr/>
+    <br/>
+    <label for="text1">Plain text:</label><br/>
+    <input type="text" name="text1" id="text1" value="10.4"><br/><br/>
+
+    <label for="soccer">Calcio</label>
+    <input type="checkbox" name="soccer" id="soccer"><br/>
+    <label for="fishing">Fishing</label>
+    <input type="checkbox" name="fishing" id="fishing"><br/>
+    <hr/>
+    <br/>
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="nb" name="gender" value="nb">
+    <label for="nb">Non Binary</label>
+    <br/>
+    <hr/>
+    <br/>
+    <label for="date">Data di nascita</label>
+    <input type="date" id="date" value="2023-01-12">
+    <br/>
+    <hr/>
+    <br/>
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <br/>
+    <hr/>
+    <br/>
+    <label for="file">File:</label>
+    <input type="file" id="file">
+    <br/>
+    <hr/>
+    <br/>
+    <button type="button" id="button" title="button">Login</button>
+    <br/>
+    <hr/>
+    <br/>
+    <input type="hidden" name="hidden">
+    <br/>
+    <hr/>
+    <br/>
+    <input type="image" alt="image" src="https://images.unsplash.com/photo-1682687220509-61b8a906ca19?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <br/>
+    <hr/>
+    <br/>
+    <label for="number">Number:</label>
+    <input type="number" name="number" id="number" step="5" value="5"/><br/>
+    <br/>
+    <hr/>
+    <br/>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <br/>
+    <hr/>
+    <br/>
+    <label for="submit" id="submit">Invia</label>
+    <input type="submit" id="submit">
+    <br/>
+    <hr/>
+    <br/>
+    <label for="text">Plain text:</label>
+    <input type="text" id="text2" name="text2" placeholder="text">
+    <br/>
+    <hr/>
+    <br/>
+    <button type="button" id="test">Button</button>
+    <script>
+        // Get value of input#input-value with JS.
+        console.log(document.getElementById("my-input").value);
+        // Get value of input#text1 with JS.
+        console.log(document.getElementById("text1").value);
+
+        console.log(document.getElementById(parseFloat("number")).value);
+
+        function consoleMe() {
+            alert("I was triggered");
+        }
+
+        let myBtn = document.getElementById("test");
+        myBtn.addEventListener("mouseenter", (event) => alert("Hello"));
+
+    </script>
+</body>
+</html>
