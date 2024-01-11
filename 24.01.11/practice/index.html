@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.my-box {
+            display: flex;
+            background-color: rgb(27, 27, 255);
+            height: 250px;
+            width: 250px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        div.test-class {
+            /* transform: rotateZ(20deg); */
+            /* transform: translateX(30); */
+            /* transform: translateX(40px); */
+            /* transform: scale(1.5); */
+            /* transform: scaleX(2); */
+            /* transform: scaleY(2); */
+            /* transform: scale3d(1,1,1,); */
+            /* transform: skewY(20deg); */
+            /* transform: skew(20deg, 30deg); */
+
+        }
+
+        div.test-class:hover {
+            /* transform: rotateZ(20deg); */
+            /* transform: translateX(30); */
+            /* transform: translateY(400px); */
+            /* transform: translate(300px, 200px); */
+            /* transform: scale(1.5); */
+            transform: translatex(200px); 
+            border-radius: 50%;
+            background-color: rgb(255, 27, 27);
+            transition: transform 2s linear 0.2s, border-radius 2s ease-in-out, background-color 2s ease-in-out;
+        }
+
+        p.text {
+            color: aliceblue;
+        }
+
+        div.test-class:hover p.text {
+            color: black; /* Cambia il colore del testo quando l'hover è attivo */
+            font-size: 300px;
+            transition: font-size 2s linear;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="my-box test-class">
+            <p class="text">my box</p>
+        </div>
+    </div>
+</body>
+</html>
