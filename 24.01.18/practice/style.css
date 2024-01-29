@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(12, 206, 131);
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.hamb-menu {
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+div.hamb-menu::before,
+div.hamb-menu::after {
+    content: "";
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: absolute;
+    transition: transform 2s; /* Applica la transizione alla proprietà transform */
+}
+
+div.hamb-menu::before {
+    transform: translateY(-15px);
+}
+
+div.hamb-menu::after {
+    transform: translateY(15px);
+}
+
+div.hamb-menu.open {
+    animation: open-mid 1s;
+    animation-fill-mode: forwards;
+}
+
+div.hamb-menu.open::before {
+    animation: open-up 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+div.hamb-menu.open::after {
+    animation: open-down 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+div.hamb-menu.closing,
+div.hamb-menu.closing::before,
+div.hamb-menu.closing::after {
+    animation-direction: reverse;
+}
+
+@keyframes open-up {
+    0% { transform: translateY(-15px); }
+    50% { transform: translate(0, 0); }
+    100% { transform: rotate(-45deg); }
+}
+
+@keyframes open-mid {
+    from { 
+        background-color: white; 
+    }
+    to { 
+        background-color: transparent; 
+        box-shadow: none;
+    }
+}
+
+@keyframes open-down {
+    0% { transform: translateY(15px); }
+    50% { transform: translate(0, 0); }
+    100% { transform: rotate(45deg); }
+}
