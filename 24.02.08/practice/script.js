@@ -34,13 +34,21 @@
 // console.log(first1, last1); // Output: John Travolta
 // console.log(first2, last2); // Output: Mark Wahlberg
 
-const people = [
-    { name: 'John', age: 22 },
-    { name: 'Alice', age: 30 },
-    { name: 'Bob', age: 28 }
-  ];
+// const people = [
+//     { name: 'John', age: 22 },
+//     { name: 'Alice', age: 30 },
+//     { name: 'Bob', age: 28 }
+//   ];
   
-  const foundPerson = people.find(person => person.age > 28);
+//   const foundPerson = people.find(person => person.age > 28);
   
-  console.log(foundPerson);
-  // Output: { name: 'Alice', age: 30 }
+//   console.log(foundPerson);
+//   // Output: { name: 'Alice', age: 30 }
+
+const fruits = ['apple', 'orange', 'banana', 'grape'];
+
+const [first, second, ...rest] = fruits;
+
+console.log(first); // Output: apple
+console.log(second); // Output: orange
+console.log(rest);  // Output: ['orange', 'banana', 'grape']
